@@ -11,26 +11,27 @@
 body .fc {
   /* extra precedence to overcome jqui */
   font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Colors
 --------------------------------------------------------------------------------------------------*/
 .fc-highlight {
   /* when user is selecting cells */
-  background: #bce8f1;
+  background: #000aff;
   opacity: 0.3;
 }
 
 .fc-bgevent {
   /* default look for background events */
-  background: #8fdf82;
+  background: #dff800;
   opacity: 0.3;
 }
 
 .fc-nonbusiness {
   /* default look for non-business-hours areas */
   /* will inherit .fc-bgevent's styles */
-  background: #d7d7d7;
+  background: #d9ff00;
 }
 
 /* Popover
@@ -563,25 +564,25 @@ TODO: more distinction between this file and common.css
 .fc-unthemed .fc-popover,
 .fc-unthemed .fc-list-view,
 .fc-unthemed .fc-list-heading td {
-  border-color: #ddd;
+  border-color: rgb(25, 0, 255);
 }
 
 .fc-unthemed .fc-popover {
-  background-color: #fff;
+  background-color: rgb(0, 0, 255);
 }
 
 .fc-unthemed .fc-divider,
 .fc-unthemed .fc-popover .fc-header,
 .fc-unthemed .fc-list-heading td {
-  background: #eee;
+  background: rgb(0, 0, 255);
 }
 
 .fc-unthemed td.fc-today {
-  background: #fcf8e3;
+  background: #fbff00;
 }
 
 .fc-unthemed .fc-disabled-day {
-  background: #d7d7d7;
+  background: #fbff00;
   opacity: 0.3;
 }
 
@@ -657,7 +658,7 @@ Lots taken from Flatly (MIT): https://bootswatch.com/4/flatly/bootstrap.css
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
-}
+} 
 
 .fc-button:focus {
   outline: 1px dotted;

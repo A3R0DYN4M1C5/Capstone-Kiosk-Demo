@@ -4,9 +4,9 @@ document.addEventListener('DOMContentLoaded', function() {
     var calendar = new FullCalendar.Calendar(calendarEl, {
       plugins: [ 'dayGrid', 'googleCalendar' ],
       header: {
-        left: 'prev,next today',
+        left: '',
         center: 'title',
-        right: 'dayGridMonth,listYear'
+        right: ''
       },
 
       displayEventTime: false, //don't show the time in list view
