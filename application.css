@@ -3,3 +3,7 @@
     border: 3px;
     border-color: blue;
 }
+
+#output {
+    float: left;
+}
