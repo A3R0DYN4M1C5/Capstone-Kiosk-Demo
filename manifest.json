@@ -4,7 +4,7 @@
  "manifest_version": 2,
  "app": {
      "background" :{
-         "scripts": ["News.py","Background.js"],
+         "scripts": ["Background.js"],
          "persistent": false
      }
  },
