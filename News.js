@@ -8,7 +8,7 @@ NewsData.onreadystatechange = function (){
         for(i=1; i<lines.length-1; i++){
             var field = lines[i].split(",");
             strOut += "<li><a href='" + field[1];
-            strOut += "' target='_blank'>" + field[0];
+            strOut += "...' target='_blank'>" + field[0];
             strOut += "</a></li>";            
         }
         strOut += "</ul>";
