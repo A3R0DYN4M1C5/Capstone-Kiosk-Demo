@@ -1,3 +1,8 @@
+@keyframes backgroundScroll {
+    0%   {background-position: 0 0;}
+    50%  {background-position: -400px 0;}
+    100% {background-position: 0 0;}
+}
 #calendar {
     font-family: cursive;
     position: absolute;
@@ -6,27 +11,57 @@
     border-color: blue;
 }
 
+body{
+    background-image: url("Pitt.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
 #output {
+    background-image: url("112.jpg");
+    background-repeat: repeat-y;
+    background-position: center;
+    animation: backgroundScroll 40s linear infinite;
     position: absolute;
-    width: 500px;
+    width: 600px;
+    height: 400px;
     bottom: 10px;
     left: 30px;
     border: solid;
     border-color: gold;
+    box-shadow: 3px 3px grey;
+    align-content: center;
 }
 
 li {
     font-family: cursive;
     font-size: 13px;
-    color: blue;
+    color: gold;
     max-width: 50ch;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     text-transform: uppercase;
+    box-shadow: 3px 3px grey;
+    border: solid 1px;
+    border-radius: 10px;
+    margin-top: 4px;
+    padding-left: 5px;
+    background: blue;
 }
 
 a {
-    color:blue;
+    color:gold;
     text-decoration: none;
+}
+
+iframe{
+    position: absolute;
+    left: 100px;
+}
+
+h1{
+    margin-left: auto;
+    color: blue;
 }
