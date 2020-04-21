@@ -19,7 +19,4 @@ with open('News.csv','w',newline='') as file:
 
 
 
-#for x,y in enumerate(articles):
-#    print(f'{x}  {y["title"]}')
-
     
