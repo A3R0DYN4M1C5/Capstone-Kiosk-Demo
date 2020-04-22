@@ -4,7 +4,8 @@ NewsData.onreadystatechange = function (){
     if (this.readyState == 4 && this.status == 200){
         console.log(this.responseText);
         var lines = this.responseText.split("\n");
-        var strOut = "<ul>";
+        var strOut = "<h1> News </h1>";
+        strOut += "<ul>";
         for(i=1; i<lines.length-1; i++){
             var field = lines[i].split(",");
             strOut += "<li><a href='" + field[1];

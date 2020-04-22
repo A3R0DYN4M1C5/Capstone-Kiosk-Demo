@@ -3,10 +3,16 @@
     50%  {background-position: -400px 0;}
     100% {background-position: 0 0;}
 }
+.grid{
+    display: grid;
+    grid-template-columns: 600px 500px 800px;
+    grid-template-rows: 400px auto auto;
+    align-content: center;
+    justify-content: center;
+}
 #calendar {
     font-family: cursive;
-    position: absolute;
-    right: 0px;
+    right: 5px;
     border: 3px;
     border-color: blue;
 }
@@ -23,15 +29,11 @@ body{
     background-repeat: repeat-y;
     background-position: center;
     animation: backgroundScroll 40s linear infinite;
-    position: absolute;
     width: 600px;
-    height: 400px;
-    bottom: 10px;
-    left: 30px;
+    height: 450px;
     border: solid;
     border-color: gold;
     box-shadow: 3px 3px grey;
-    align-content: center;
 }
 
 li {
@@ -46,8 +48,8 @@ li {
     box-shadow: 3px 3px grey;
     border: solid 1px;
     border-radius: 10px;
-    margin-top: 4px;
     padding-left: 5px;
+    margin-top: 4px;
     background: blue;
 }
 
@@ -57,15 +59,20 @@ a {
 }
 
 iframe{
-    position: absolute;
-    left: 100px;
+
 }
 
 h1{
-    margin-left: auto;
-    color: blue;
+    color: gold;
+    font-family: cursive;
+    font-size: 20pt;
+    align-self: center;
 }
 
 h2{
     color: blue;
+}
+
+#calendar2 {
+    max-width: 300px;
 }
